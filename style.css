@@ -205,12 +205,12 @@ footer a {
 
 /* media queries */
 @media (min-width: 700px) {
-    :root {
-      --bg-url: url(./assets/bg-desktop.jpg);
-    }
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
   
-    .light {
-      --bg-url: url(./assets/bg-desktop-light.jpg);
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
     }
   }
   
