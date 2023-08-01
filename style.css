@@ -11,7 +11,7 @@
 body {
     background: var(--bg-url) no-repeat top center/cover; 
     height: 100vh;
-
+    text-align: center;
 }
 
 body * {
@@ -50,6 +50,24 @@ body * {
     line-height: 24px;
     margin-top: 8px;
 
+}
+
+#botao button {
+
+ width: 20%;
+ background-color: var(--surface-color);
+ margin: 0 auto;
+ border-radius: 8px;
+ border: 1px solid gray;
+ 
+
+  
+   
+}
+
+#botao button:hover {
+  border: 1px solid purple;
+  background-color: var(--surface-color-hover)
 }
 
 #switch {
@@ -168,6 +186,7 @@ ul li a:hover {
 
 }
 
+
 footer {
     padding: 24px 0;
     text-align: center;
@@ -198,7 +217,7 @@ footer a {
     --bg-url: url(./assets/bg-mobile-light.jpg);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
-    --surface-color-hover: rgba(0, 0, 0, 0.02);
+    --surface-color-hover: rgba(0, 0, 0, 0.3);
     --highlight-color: rgba(0, 0, 0, 0.1);
     --switch-bg-url: url(./assets/sun.svg);
   }
