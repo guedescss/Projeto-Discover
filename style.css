@@ -10,7 +10,7 @@
 
 body {
     background: var(--bg-url) no-repeat top center/cover; 
-    height: 100vh;
+    height: 10vh;
     text-align: center;
 }
 
