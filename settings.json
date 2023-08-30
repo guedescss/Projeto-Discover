@@ -11,7 +11,7 @@
     "editor.formatOnPaste": true,
     "files.autoSave": "afterDelay",
   
-    // explorer
+    //  explorer
     "explorer.compactFolders": false,
   
     // workbench
